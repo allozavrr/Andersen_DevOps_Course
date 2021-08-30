@@ -9,7 +9,7 @@ I work as a **system administrator** and am learning the **Go programming langua
     * I love information security and automation
     * as I said, my motto is to automate everything that moves, and if not, move and automate.
 
-* ** What I expect from the DevOps course: **
+* **What I expect from the DevOps course:**
     * understanding how the philosophy of DevOps works
     * skills in automation and scaling
     * analysis of practical cases
