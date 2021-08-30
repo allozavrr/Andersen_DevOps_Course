@@ -1,6 +1,6 @@
 # My name is Alla.
 
-I have this nickname on GitHub because I love ::dinosaurs:: :)
+I have this nickname on GitHub because I love 🦖dinosaurs🦕 :)
 
 I work as a **system administrator** and am learning the **Go programming language**.
 
