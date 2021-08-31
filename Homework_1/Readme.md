@@ -2,7 +2,7 @@
 
 I have this nickname on GitHub because I love 🦖dinosaurs🦕 :)
 
-I work as a **system administrator** and am learning the **Go programming language**.
+I work a **system administrator** and I'm learning the **Go programming language**.
 
 * **I'm interested in the DevOps course** because:
     * I like to learn everything new
