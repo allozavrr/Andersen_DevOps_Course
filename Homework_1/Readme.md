@@ -22,6 +22,7 @@ I work a **system administrator** and I'm learning the **Go programming language
 
 * **08/30/2021
     Today I learned:**
-   Uh-oh, it was a hard day, but I asked Internet about:
+    
+    Uh-oh, it was a hard day, but I asked Internet about:
     * how LVM Luks cryptsetup works
     * mounting crypt disks in Linux
