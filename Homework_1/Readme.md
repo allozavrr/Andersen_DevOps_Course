@@ -15,7 +15,8 @@ I work a **system administrator** and I'm learning the **Go programming language
     * analysis of practical cases
     * meeting people who love their job.
 
-* **Today I learned:**
+* **08/30/2021
+    Today I learned:**
     * web development methodologies
     * how DevOps developed
 
