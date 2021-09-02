@@ -18,3 +18,11 @@
     * what do DevOps do
     * what is CI/CD
     * testing types and testing goals
+
+* **09/01/2021
+    Today I learned:**
+
+    No day without commit :)
+    * how to do swap file bigger in Linux
+    * how fix problem with Doker container images (spoiler: Docker system prune may be so magic)
+    * how is life-work balance important
