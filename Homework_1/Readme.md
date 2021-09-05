@@ -19,10 +19,28 @@
     * what is CI/CD
     * testing types and testing goals
 
-* **09/01/2021
+* **09/02/2021
     Today I learned:**
 
     No day without commit :)
     * how to do swap file bigger in Linux
     * how fix problem with Doker container images (spoiler: Docker system prune may be so magic)
     * how is life-work balance important
+
+* **09/03/2021
+    Today I learned:**
+
+    * some Python
+
+* **09/04/2021
+    Today I learned:**
+
+    * Algorithms
+    * Some Python 
+
+* **09/05/2021
+    Today I learned:**
+
+    * Algorithms
+    * Some Python again and again
+    * bash/shell
