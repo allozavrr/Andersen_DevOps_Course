@@ -44,3 +44,9 @@
     * Algorithms
     * Some Python again and again
     * bash/shell
+
+* **09/06/2021
+    Today I learned:**
+
+    * what is Ansible and how it works
+    
