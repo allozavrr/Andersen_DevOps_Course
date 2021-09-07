@@ -50,3 +50,8 @@
 
     * what is Ansible and how it works
     
+* **09/07/2021
+    Today I learned:**
+
+    * Algorithms
+    * Some Python again and again and again
