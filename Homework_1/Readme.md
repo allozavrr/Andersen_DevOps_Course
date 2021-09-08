@@ -55,3 +55,10 @@
 
     * Algorithms
     * Some Python again and again and again
+
+* **09/08/2021
+    Today I learned:**
+
+    * Algorithms
+    * Some Python 
+    * IDLE and based knowledges about programming languages
