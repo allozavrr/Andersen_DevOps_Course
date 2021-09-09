@@ -62,3 +62,11 @@
     * Algorithms
     * Some Python 
     * IDLE and based knowledges about programming languages
+
+* **09/09/2021
+    Today I learned:**
+
+    * Algorithms
+    * Some Python 
+    * VisualStudio and trial PyCharm
+
