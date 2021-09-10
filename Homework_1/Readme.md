@@ -70,3 +70,10 @@
     * Some Python 
     * VisualStudio and trial PyCharm
 
+* **09/10/2021
+    Too hard day... very hard day
+    Today I learned:**
+
+    * Bash
+    * Some Python 
+    * alive
