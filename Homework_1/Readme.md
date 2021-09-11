@@ -77,3 +77,9 @@
     * Bash
     * Some Python 
     * alive
+
+* **09/11/2021
+    Today I learned:**
+
+    * Learn Go, learn Go, learn Go so much!!!
+    
