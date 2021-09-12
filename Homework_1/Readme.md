@@ -82,4 +82,10 @@
     Today I learned:**
 
     * Learn Go, learn Go, learn Go so much!!!
+
+* **09/11/2021
+    Today I learned:**
+
+    * Learn Go
+    * Bash scripting and my head is pain
     
