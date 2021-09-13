@@ -1,6 +1,5 @@
-<p align="justify">
 ![alt text](https://github.com/allozavrr/Screenshots/blob/main/The_Elder_Scrolls_III_-_Morrowind_-_Text_Logo.png "Welcome to Elder Scripts, Traveler!")
-</p>
+
 
 # Welcome to the Morrowind script, Traveler. 
 It will help you find out the status of your network connections.
