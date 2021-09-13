@@ -16,30 +16,30 @@ To be able to run the script, just type: ./morr_cript.sh
 
 The Morr_script consists of several parts:
 
-**  **Sudo** launches your spell on behalf of root. Feel like a real Nerevarine!
+*  **Sudo** launches your spell on behalf of root. Feel like a real Nerevarine!
 
-**  **Netstat** shows displays network connections. 
+*  **Netstat** shows displays network connections. 
 The following superpowers netstat in this script shows TCP and UDP connections, theirs numerical addresses, the PID and name of the program (you can know this, Nerevarine!) and all listening sockets, 
 
-** **Awk** creates a report directly in the script itself.
+* **Awk** creates a report directly in the script itself.
 
-** **Cut** it is a spell with which you extract information about the output of the data in each line. You can adjust the number of lines here, Traveler.
+* **Cut** it is a spell with which you extract information about the output of the data in each line. You can adjust the number of lines here, Traveler.
 
-** **Sort** will help you sort the results found alphabetically. Well, or according to the runic alphabet.
+* **Sort** will help you sort the results found alphabetically. Well, or according to the runic alphabet.
 
-** **Uniq** displays several similar values on one line. In this script, it will print the number of times that line is repeated in the input and one space before each line.
+* **Uniq** displays several similar values on one line. In this script, it will print the number of times that line is repeated in the input and one space before each line.
 
-** **Tail** shows you how many pages from the end of the Elder Scrolls you have left. Or just the trailing lines of the output (you can type them yourself)
+* **Tail** shows you how many pages from the end of the Elder Scrolls you have left. Or just the trailing lines of the output (you can type them yourself)
 
-** **Grep** will help you find the desired rune word, in this case - will show the matching parts of the output
+* **Grep** will help you find the desired rune word, in this case - will show the matching parts of the output
 
-** **While** will help you complete the magic - command.
+* **While** will help you complete the magic - command.
 
-** **Read** read it!
+* **Read** read it!
 
-** **Whois** helps filter out IP connections (you can filter the ones you need)
+* **Whois** helps filter out IP connections (you can filter the ones you need)
 
-** Make magic for uou fun!
+* Make magic for your fun!
 
 
 
