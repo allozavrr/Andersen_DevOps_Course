@@ -88,4 +88,11 @@
 
     * Learn Go
     * Bash scripting and my head is pain
+
+* **09/12/2021
+    Today I learned:**
+
+    * Learn Go
+    * Bash scripting 
+    * waiting for lection (aww!)
     
