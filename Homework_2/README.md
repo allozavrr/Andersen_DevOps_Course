@@ -6,9 +6,23 @@ It will help you find out the status of your network connections.
 
 Before starting work, please make sure that the whois and netstat utility spells are installed on your computer. 
 
+Let the magic begin!
+
+**Netstat:**
+* $ sudo yum install net-tools #RHEL/CentOS*
+* $ sudo apt install net-tools #Debian/Ubuntu*
+* $ sudo dnf install net-tools #Fedora 22+*
+* $ sudo pacman -Fs netstat #Manjaro*
+
+**Whois:**
+* $ sudo yum whois #RHEL/CentOS*
+* $ sudo apt-get install whois #Debian/Ubuntu*
+* $ sudo dnf install whois #Fedora 22+*
+* $ sudo pacman -Syu whois #Manjaro*
+
 *And also make sure you are running Linux!*
 
-The Morr_script must be downloaded from this repository in any way convenient for you. You need to set up privileges to enable the script to read, write, and execute. Use the Linux spell **chmod 751** for this.
+The Morr_script must be downloaded from this repository in any way convenient for you. You need to set up privileges to enable the script to read, write, and execute. Use the Linux spell **sudo chmod 751** for this.
 
 As a great magician, you need to know the process name or PID, as well as by what criteria you need to filter the results.
 
