@@ -23,7 +23,7 @@ The Morr_script consists of several parts:
 
 * **Awk** creates a report directly in the script itself.
 
-* **Cut** it is a spell with which you extract information about the output of the data in each line. *You can adjust the number of lines here, Traveler.
+* **Cut** it is a spell with which you extract information about the output of the data in each line. *You can adjust the number of lines here, Traveler.*
 
 * **Sort** will help you sort the results found alphabetically. *Well, or according to the runic alphabet*.
 
