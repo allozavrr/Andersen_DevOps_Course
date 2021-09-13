@@ -33,9 +33,9 @@ The following superpowers netstat in this script shows TCP and UDP connections, 
 
 * **Grep** will help you find the desired rune word, in this case - will show the matching parts of the output
 
-* **While** will help you complete the magic - command.
+* **While** will help you complete the magic - command...
 
-* **Read** read it!
+* and **Read** can read it!
 
 * **Whois** helps filter out IP connections (you can filter the ones you need)
 
