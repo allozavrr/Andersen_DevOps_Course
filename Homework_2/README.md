@@ -55,7 +55,7 @@ The Morr_script consists of several parts:
 
 * **Whois** helps filter out IP connections *(you can filter the ones you need)*.
 
-* **Make magic for your fun!**
+* **Make Elder Scripts for your fun!**
 
 
 
