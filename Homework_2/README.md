@@ -16,16 +16,16 @@ To start the magic, run the command in the terminal and just type: ./morr_cript.
 
 The Morr_script consists of several parts:
 
-*  **Sudo** launches your spell on behalf of root. Feel like a real Nerevarine!
+*  **Sudo** launches your spell on behalf of root. *Feel like a real Nerevarine!*
 
 *  **Netstat** shows displays network connections. 
-*The following superpowers netstat in this script shows TCP and UDP connections, theirs numerical addresses, the PID and name of the program (you can know this, Nerevarine!) and all listening sockets.
+*The following superpowers netstat in this script shows TCP and UDP connections, theirs numerical addresses, the PID and name of the program (you can know this, Nerevarine!) and all listening sockets*.
 
 * **Awk** creates a report directly in the script itself.
 
 * **Cut** it is a spell with which you extract information about the output of the data in each line. *You can adjust the number of lines here, Traveler.
 
-* **Sort** will help you sort the results found alphabetically. *Well, or according to the runic alphabet.
+* **Sort** will help you sort the results found alphabetically. *Well, or according to the runic alphabet*.
 
 * **Uniq** displays several similar values on one line. In this script, it will print the number of times that line is repeated in the input and one space before each line.
 
@@ -37,7 +37,7 @@ The Morr_script consists of several parts:
 
 * and **Read** can read it!
 
-* **Whois** helps filter out IP connections *(you can filter the ones you need).
+* **Whois** helps filter out IP connections *(you can filter the ones you need)*.
 
 * **Make magic for your fun!**
 
