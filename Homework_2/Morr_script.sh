@@ -1,6 +1,23 @@
 echo "Welcome to Morrowind, sleepyhead. Even yesterday's rain didn't wake you up..."
 echo "Keep calm and make whois for fun!"
 
+#Check your priveleges before starting, Fighter!
+
+while true; do
+  read -p "Run the program as root? The Imperial guards are waiting for you... Are you sure? (YES/NO)" yn
+  case $yn in
+  [Yy]*)
+    run_as_admin="y"
+    break
+    ;;
+  [Nn]*)
+    run_as_admin="n"
+    break
+    ;;
+  *) echo "For the sake of the Emperor, choose an answer (YES/NO)" ;;
+  esac
+done
+
 #You need write the process name, Nerevarine!
 
 read -p "Choose your fighter! What is your process name or PID? " process_name
@@ -29,23 +46,6 @@ while true; do
     break
     ;;
   *) echo "Eat your moon sugar and choose an answer (YES/NO)" ;;
-  esac
-done
-
-#Check your priveleges before starting, Fighter!
-
-while true; do
-  read -p "Run the program as root? The Imperial guards are waiting for you... Are you sure? (YES/NO)" yn
-  case $yn in
-  [Yy]*)
-    run_as_admin="y"
-    break
-    ;;
-  [Nn]*)
-    run_as_admin="n"
-    break
-    ;;
-  *) echo "For the sake of the Emperor, choose an answer (YES/NO)" ;;
   esac
 done
 
