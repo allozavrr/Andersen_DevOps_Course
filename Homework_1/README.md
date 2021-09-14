@@ -83,16 +83,21 @@
 
     * Learn Go, learn Go, learn Go so much!!!
 
-* **09/11/2021
+* **09/12/2021
     Today I learned:**
 
     * Learn Go
     * Bash scripting and my head is pain
 
-* **09/12/2021
+* **09/13/2021
     Today I learned:**
 
     * Learn Go
     * Bash scripting 
     * waiting for lection (aww!)
+
+* **09/13/2021
+    Today I learned:**
+
+    * Git
     
