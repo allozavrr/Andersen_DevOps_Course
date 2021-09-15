@@ -100,4 +100,8 @@
     Today I learned:**
 
     * Git
-    
+ 
+ * **09/14/2021
+    Today I learned:**
+
+    * Docker
