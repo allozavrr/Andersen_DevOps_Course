@@ -105,3 +105,18 @@
     Today I learned:**
 
     * Docker
+
+* **09/15/2021
+    Today I learned:**
+
+    * Learn Go
+
+* **09/16/2021
+    Today I learned:**
+
+    * Learn Go
+
+* **09/17/2021
+    Today I learned:**
+
+    * Learn Go
