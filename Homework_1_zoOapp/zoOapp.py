@@ -30,7 +30,7 @@ def json_example():
 	animal = content["animal"]
 	sound = content["sound"]
 	count = str(content["count"])
-	emoji =  {'elephant':'\N{elephant}', 'cow':'\N{cow face}', 'whale':'\N{Whale}'}
+	emoji =  {'Dragon':'\N{Dragon}', 'Sauropod':'\N{Sauropod}', 'T-Rex':'\N{T-Rex}'}
 	emoji_icon = emoji.get(animal)
 
 	# let's go fun
