@@ -129,4 +129,4 @@
 * **09/17/2021
     Today I learned:**
 
-    * Learn Go
+    * Learn Python
