@@ -120,3 +120,13 @@
     Today I learned:**
 
     * Learn Go
+
+* **09/18/2021
+    Today I learned:**
+
+    * Learn Go
+
+* **09/17/2021
+    Today I learned:**
+
+    * Learn Go
