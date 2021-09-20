@@ -126,7 +126,13 @@
 
     * Learn Go
 
-* **09/17/2021
+* **09/19/2021
     Today I learned:**
 
     * Learn Python
+
+
+* **09/20/2021
+    Today I learned:**
+
+    * Learn Go
