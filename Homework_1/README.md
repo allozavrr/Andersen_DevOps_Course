@@ -136,3 +136,10 @@
     Today I learned:**
 
     * Learn Go
+
+* **09/21/2021
+    Today I learned:**
+
+    * Learn nginx
+    * Learn Ansible
+    * Learn Go
