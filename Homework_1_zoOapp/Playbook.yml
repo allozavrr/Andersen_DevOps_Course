@@ -30,7 +30,7 @@
         dest: /etc/ssh/sshd_config 
         regexp: '^#?PubkeyAuthentication'
         
-    - name: "Permit RootLogin"
+    - name: "Enable Root"
       lineinfile: 
         dest: /etc/ssh/sshd_config 
         regexp: '^PermitRootLogin'
@@ -60,6 +60,7 @@
         name: "Emoji"
         executable: pip3
         state: "present"
+        update_cache: true
 
     - name: "Delete old nginx config"
       ansible.builtin.file:
