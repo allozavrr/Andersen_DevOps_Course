@@ -3,3 +3,7 @@
   * https://cutt.ly/kEhmES7
   * https://habr.com/ru/post/543676/
   * https://github.com/settings/tokens
+  * https://ashirobokov.wordpress.com/2016/10/04/dnd-spells-telegram-bot-1/
+  * https://go-telegram-bot-api.dev/
+  * https://cutt.ly/iEhm2yK
+  * https://dev-gang.ru/article/sozdanie-twitterbota-v-go-p7swmtdtun/
