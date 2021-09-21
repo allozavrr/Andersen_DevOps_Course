@@ -143,3 +143,10 @@
     * Learn nginx
     * Learn Ansible
     * Learn Go
+
+* **09/22/2021
+    Today I learned:**
+
+    * Learn DOCKER
+    * Learn Ansible
+   
