@@ -99,6 +99,12 @@ handlers:
         name: "nginx"
         state: restarted
         enabled: yes
+        
+    - name: "Restsrt systemctl"
+      service:
+        name: "systemctl daemon"
+        state: systemctl daemon-reload
+        enabled: yes 
 
     - name : "Set incoming ESTABLISHED and RELATED"
       iptables:
