@@ -1,0 +1,132 @@
+# ZoOAPP PLAYBOOK
+---
+- hosts: "all"
+  become: true
+  tasks:
+  - name: "Install ZoOapp"
+    ansible.builtin.apt:
+      name: "ZoOapp"
+      state: "latest"
+      update_cache: true
+    
+    - name: "Authorized key"
+      authorized_key:
+        user: "{{ lookup('env','USER') }}"
+        state: present
+        key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+
+    - name: "Set sshd"
+      lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^#?AuthenticationMethods' 
+
+    - name: "Disable sshd password authentification"
+      lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^#?PasswordAuthentication' 
+
+    - name: "Enable sshd public-key authentification"
+      lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^#?PubkeyAuthentication'
+        
+    - name: "Permit RootLogin"
+      lineinfile: 
+        dest: /etc/ssh/sshd_config 
+        regexp: '^PermitRootLogin'
+
+    - name: "Reload sshd to apply config"
+      service: 
+        name: sshd
+        state: "restarted"
+
+    - name: "Install pip and nginx" 
+      apt:
+        pkg:
+          - python3-pip
+          - nginx
+        state: "present"
+        update_cache: true
+
+    - name: "Install Flask"
+      pip:
+        name: "Flask"
+        executable: pip3
+        state: "present"
+        update_cache: true
+
+    - name: "Install Emoji"
+      pip:
+        name: "Emoji"
+        executable: pip3
+        state: "present"
+
+    - name: "Delete old nginx config"
+      ansible.builtin.file:
+         path: "/etc/nginx/sites-enabled/default"
+         state: "absent"
+
+     - name: "Creating nginx ZooOapp config"
+       copy: src=files/symfony2 dest=/etc/nginx/sites-available/ZoOapp owner=root group=root mode=0755
+       notify: reload nginx
+        content: |
+          server {
+            listen 80 default_server;
+            location / {
+              proxy_pass http://127.0.0.1:8080;
+             }
+          }
+    
+    - name: "Enable ZoOapp service"
+      service: 
+        name : ZoOapp.service 
+        enabled: yes
+    
+    - name: "Start ZoOapp service"
+      service: 
+        name: "ZoOapp.service" 
+        state: started
+        
+handlers:
+    - name: "Enable nginx service"
+      service: 
+        name : "nginx.service" 
+        enabled: yes    
+    
+    - name: "Restart nginx"
+      service:
+        name: "nginx"
+        state: restarted
+        enabled: yes
+
+    - name : "Set incoming ESTABLISHED and RELATED"
+      iptables:
+        chain: INPUT
+        ctstate: ESTABLISHED,RELATED
+        jump: ACCEPT
+      become: yes
+
+    - name : "Allow incoming from localhost"
+      iptables:
+        chain: INPUT
+        source: 127.0.0.1
+        jump: ACCEPT
+      become: yes   
+   
+   - name: "Allow connections on all ports"
+      ansible.builtin.iptables:
+        chain: INPUT
+        protocol: tcp
+        destination_ports:
+          - "22"
+          - "80"
+          - "443"
+        jump: ACCEPT
+      
+    - name: "INPUT to DROP policy"
+      iptables:
+        chain: INPUT
+        jump: DROP
+      become: yes
+
+    
