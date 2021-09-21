@@ -4,3 +4,6 @@
   * https://cutt.ly/iEgK5tp
   * https://cutt.ly/jEgLyGK
   * https://habr.com/ru/post/305400/
+
+  * https://itproffi.ru/generatsiya-i-ispolzovanie-ssl-sertifikatov-v-linux/
+  *
