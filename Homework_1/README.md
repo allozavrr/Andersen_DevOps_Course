@@ -150,3 +150,7 @@
     * Learn DOCKER
     * Learn Ansible
    
+* **09/22/2021
+    Today I learned:**
+
+    * Learn shell
