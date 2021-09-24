@@ -150,7 +150,12 @@
     * Learn DOCKER
     * Learn Ansible
    
-* **09/22/2021
+* **09/23/2021
     Today I learned:**
 
     * Learn shell
+
+* **09/24/2021
+    Today I learned:**
+
+    * LINUX!!!
