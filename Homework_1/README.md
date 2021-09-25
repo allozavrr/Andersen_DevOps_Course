@@ -159,3 +159,8 @@
     Today I learned:**
 
     * LINUX!!!
+
+* **09/25/2021
+    Today I learned:**
+
+    * Go 
