@@ -164,7 +164,12 @@
     Today I learned:**
 
     * Go 
+    * 
+* **09/26/2021
+    Today I learned:**
 
+    * Go
+    *  
 * **09/27/2021
     Today I learned:**
 
@@ -175,3 +180,7 @@
 
     * Go 
 
+* **09/30/2021
+    Today I learned:**
+
+    * Go 
