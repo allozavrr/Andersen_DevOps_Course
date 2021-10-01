@@ -189,3 +189,10 @@
     Today I learned:**
 
     * Go 
+
+
+* **10/01/2021
+    Today I learned:**
+
+    * Git
+    * Cloud platforms 
