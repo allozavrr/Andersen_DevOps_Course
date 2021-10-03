@@ -196,3 +196,21 @@
 
     * Git
     * Cloud platforms 
+
+* **10/02/2021 
+    Today I learned:
+
+    * Git
+    * Cloud platforms
+
+* **10/03/2021 
+    Today I learned:
+
+    * Git
+    * Cloud platforms
+
+* **10/04/2021 
+    Today I learned:
+
+    * Git
+    * Cloud platforms
