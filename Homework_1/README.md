@@ -212,5 +212,30 @@
 * **10/04/2021 
     Today I learned:
 
-    * Git
-    * Cloud platforms
+    * bin/bash
+    * Linux
+
+* **10/05/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
+
+* **10/06/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
+
+* **10/07/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
+    * Bandit game
+
+* **10/08/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
