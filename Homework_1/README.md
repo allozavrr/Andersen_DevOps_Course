@@ -239,3 +239,15 @@
 
     * bin/bash
     * Linux
+
+* **10/09/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
+
+* **10/10/2021 
+    Today I learned:
+
+    * bin/bash
+    * Linux
