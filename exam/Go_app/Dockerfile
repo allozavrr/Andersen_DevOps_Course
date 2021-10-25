@@ -1,12 +1,32 @@
-FROM golang:1.16-alpine as builder
+FROM golang:1.12-alpine AS build_base
 
-WORKDIR /build
-COPY . .
+RUN apk add --no-cache git
+
+# Set the Current Working Directory inside the container
+WORKDIR /tmp/Hello_word
+
+# We want to populate the module cache based on the go.{mod,sum} files.
+COPY go.mod .
+COPY go.sum .
+
 RUN go mod download
-RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-extldflags "-static"' -o compile .
 
-FROM scratch
-ENV GIN_MODE=release
-COPY --from=builder /build/compile /build/index.html ./
+COPY . .
+
+# Unit tests
+RUN CGO_ENABLED=0 go test -v
+
+# Build the Go app
+RUN go build -o ../out/Hello_word .
+
+# Start fresh from a smaller image
+FROM alpine:3.9 
+RUN apk add ca-certificates
+
+COPY --from=build_base /https://raw.githubusercontent.com/allozavrr/Andersen_DevOps_Course/main/exam/Go_app/Hello_Word.go /app/Hello_World
+
+# This container exposes port 8080 to the outside world
 EXPOSE 8080
-ENTRYPOINT [ "/compile" ]
+
+# Run the binary program produced by `go install`
+CMD ["/app/Hello_World"]
