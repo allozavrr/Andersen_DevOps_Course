@@ -3,7 +3,7 @@ FROM golang:1.12-alpine AS build_base
 RUN apk add --no-cache git
 
 # Set the Current Working Directory inside the container
-WORKDIR /tmp/Hello_word
+WORKDIR /tmp/Hello_World
 
 # We want to populate the module cache based on the go.{mod,sum} files.
 COPY go.mod .
@@ -17,7 +17,7 @@ COPY . .
 RUN CGO_ENABLED=0 go test -v
 
 # Build the Go app
-RUN go build -o ../out/Hello_word .
+RUN go build -o ../out/Hello_World .
 
 # Start fresh from a smaller image
 FROM alpine:3.9 
