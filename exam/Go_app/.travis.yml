@@ -12,5 +12,5 @@ go:
 script: make test
  
 after_success:
-  — sh .travis/dockerhub.sh
+  — sh .travis/Dockerhub.sh
   — test “$TRAVIS_BRANCH” = “master” && sh .travis/heroku.sh
