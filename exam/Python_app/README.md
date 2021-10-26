@@ -1,53 +1,55 @@
 ## Hello, my friend.
 
 * **What is it?**
+
   This is a small app for output "Hello, world!" via http. Application listen port 8080 and saves logs.
 
 * **How it works?**
 
   For use this application install next packages:
 
-*go get github.com/gin-gonic/gin*
+  *go get github.com/gin-gonic/gin*
 
 Then compile application from same folder.
 
-   and build app: 
+And build app: 
 
-*go build Hello_World.go*
+  *go build Hello_World.go*
 
-   and run app:
+And run app:
 
-*./helloworld*
+  *./helloworld*
+  
 
 * **OK, and what about Docker?**
 
-    You can install app with Docker, friend!
+You can install app with Docker, friend!
 
-    Download this repository and build image
+Download this repository and build image
 
-*docker build. -t {image_name}*
+   *docker build. -t {image_name}*
 
-   And run the container
+And run the container
 
-*docker run -d -p 8080: 8080 {image_name}*
+   *docker run -d -p 8080: 8080 {image_name}*
 
 
 * **OK, and what about Kubernetes?**
 
-  [You can download minikube](https://github.com/kubernetes/minikube) and [kubectl](https://kubernetes.io/docs/tasks/tools/)
+[You can download minikube](https://github.com/kubernetes/minikube) and [kubectl](https://kubernetes.io/docs/tasks/tools/)
   
-   Then do it:
+Then do it:
 
-*minikube start
-minikube addons enable ingress
-kubectl config use-context minikube*
+   *minikube start
+   minikube addons enable ingress
+   kubectl config use-context minikube*
 
-   Testing:
+Testing:
    
-*kubectl get deployment
-kubectl get service
-kubectl get ingress*
+   *kubectl get deployment
+   kubectl get service
+   kubectl get ingress*
 
-  and add domen **advent.test** to local file **/etc/hosts**
+And add domen **advent.test** to local file **/etc/hosts**
 
 Have a good day and fun!
