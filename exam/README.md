@@ -1,4 +1,4 @@
-# Hello my friend. 
+# Hello, my friend. 
 
 ## This is my final final assignment for the exam.
 
