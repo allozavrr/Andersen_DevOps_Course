@@ -2,11 +2,11 @@
 
 * **What is it?**
 
-  This is a small app for output "Hello, world!" via http. Application listen port 8080 and saves logs.
+This is a small app for output "Hello, world!" via http. Application listen port 8080 and saves logs.
 
 * **How it works?**
 
-  For use this application install next packages:
+For use this application install next packages:
 
   *go get github.com/gin-gonic/gin*
 
