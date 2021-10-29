@@ -275,3 +275,8 @@
 
     * bin/bash
     * Linux
+
+* **10/29/2021 
+    Today I learned:
+
+    * Ansible
