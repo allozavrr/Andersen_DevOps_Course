@@ -1,4 +1,4 @@
-# My name is Alla.
+Hello!
 I've got this nickname on GitHub because I love 🦖dinosaurs🦕 :)
 
 I work a system administrator and I'm learning the Go programming language.
